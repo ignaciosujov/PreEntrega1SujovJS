@@ -43,5 +43,5 @@ const calcularPlazoFijo = (monto) =>{
     alert(`El interes mensual a recibir sera de ${montoPorMes.toFixed(2)}, por lo tanto haciendolo a ${mesesACotizar} meses sera de ${montoGanado.toFixed(2)}.`)
     alert(`Usted tendra un total de ${montoTotal.toFixed(2)} pesos al terminar el plazo fijo.`)
 }else{
-    alert("debe ser cliente para continuar")
+    alert("Lo siento, debe ser cliente para continuar")
 }
