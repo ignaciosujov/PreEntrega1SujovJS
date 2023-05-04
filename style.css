@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #807e7e;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 0 0 5px #333;
+}
+h2 span{
+    color: #391258;
+    text-shadow: 0 0 6px #807e7e;
+    font-size: 38px;
+}
+.titulo{
+    font-size: 22px;
+    margin-bottom: 28px;
+    margin-left: 50px;
+    padding: 6px 19px;
+    text-align: center;
+    border-radius: 9px 24px;
+    background-color: #39125873;
+    color: rgba(255, 255, 255, 0.74);
+}
+.contenedor{
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 50px 200px;
+}
+.contenedor div{
+    display: inline-block
+    
+}
+.info{
+    padding: 10px;
+}
+.montoMeses{
+    margin-bottom: 50px;
+    font-size: 20px;
+
+}
+input, select, button{
+    width: 200px;
+}
+input, label, select{
+    display: inline-block;
+}
